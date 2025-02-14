@@ -18,10 +18,7 @@ def sort_on(my_dict):
 def report(count, my_dict):
     sorted_list = list(my_dict.items())
     sorted_list.sort(key=sort_on, reverse=True)
-    print(sorted_list)
     sorted_dict = dict(sorted_list)
-    print(sorted_dict)
-    print(dict)
     print("--- Begin report of books/frankenstein.txt ---")
     print(f"{count} words found in the document")
     print(" ")
